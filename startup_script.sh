@@ -11,3 +11,4 @@ cd reddit && bundle install
 puma -d
 systemctl start mongod
 systemctl enable mongod
+

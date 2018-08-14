@@ -1,1 +1,0 @@
-gcloud compute instances create reddit-machine --boot-disk-size=10 --machine-type=g1-small --zone=europe-west1-b --tags=puma-server --image-family=reddit-full

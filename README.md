@@ -35,5 +35,4 @@ gcloud compute instances create reddit-app  --boot-disk-size=10GB   --image-fami
 ### Create Rule default-puma-server
 gcloud compute firewall-rules create default-puma-server --action=allow --allow=tcp:9292 --target-tags=puma-server
 ## Homework 5
-Creation of base and full images with Packer
-Completed all tasks (include Task with star)
+Creation of base and full images with Packer. Completed all tasks (include Task with star)

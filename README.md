@@ -1,7 +1,7 @@
 # devopsag_infra
 devopsag Infra repository
 
-##Homework 3
+###Homework 3
 #Connection to someinternalhost in one string.
 To connect, type in command line: "ssh -i ~/.ssh/gcpssh -J gcpssh@35.210.236.136 gcpssh@10.132.0.3"
 #Connection to server comeinternalhost with same alias
@@ -19,7 +19,7 @@ Host someinternalhost
 bastion_IP = 35.210.236.136
 someinternalhost_IP = 10.132.0.3
 
-#Homework4
+###Homework 4
 
 testapp_IP=35.233.47.183
 testapp_port=9292
@@ -32,3 +32,6 @@ gcloud compute instances create reddit-app  --boot-disk-size=10GB   --image-fami
 
 #Create Rule default-puma-server
 gcloud compute firewall-rules create default-puma-server --action=allow --allow=tcp:9292 --target-tags=puma-server
+###Homework 5
+Creation of base and full images with Packer
+Completed all tasks (include Task with star)
